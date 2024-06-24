@@ -9,7 +9,7 @@ app.use('/auth/stripe',require("./routes/stripe"));
 app.use('/auth/user',require("./routes/user"));
 app.get('/',(req,res)=>{
     console.log("hello");
-    res.send("hello")
+    res.send("shareen")
 })
 app.listen(5000);
 connectToMongo
