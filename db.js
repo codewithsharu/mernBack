@@ -3,7 +3,7 @@ const connectToMongo=()=>{
 try{
 
 
-    mongoose.connect("mongodb+srv://divbajaj297:Divanshbajaj297$@stripe.i4tuvkc.mongodb.net/stripe");
+    mongoose.connect("mongodb+srv://trydatabase69:<password>@cluster0.xqw036f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 console.log("connected to db");
 
